@@ -8,6 +8,7 @@ public class Main {
 		System.out.println(dog.tryToFly());
 		System.out.println(bird.tryToFly());
 		
+		// can dynamically change behavior
 		dog.setFlyingType(new ItFlys());
 		
 		System.out.println(dog.tryToFly());

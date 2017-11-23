@@ -10,6 +10,7 @@ public class Main {
 		Scanner userInput = new Scanner(System.in);
 		System.out.print("What type of ship? (U / B)");
 		
+		// can dynamically create instances
 		if (userInput.hasNextLine()) {
 			String typeOfShip = userInput.nextLine();
 			theEnemy = esFactory.makeEnemyShip(typeOfShip);
